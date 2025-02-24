@@ -9,9 +9,13 @@ def more(text):
             reply = input('Show more (y/n)? ')
             if reply == 'n':
                 break
-
+'''
 url = 'http://python.org/'  # προσδιορισμός του url
 
 with requests.get(url) as response:  # το αντικείμενο response
     html = response.text
-    more(html)
+    more(html)'''
+
+
+url=input("give url:\t")
+print(url)
